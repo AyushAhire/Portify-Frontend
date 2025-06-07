@@ -7,8 +7,8 @@ import BackTest from "../components/backtest"
 import GenerateReport from "../util/report"
 
 export default function Optimize() {
-    const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
-
+    //const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+    const BACKEND_URL="https://portify-backend.onrender.com"
     const [investmentAmount, setInvestmentAmount] = useState(100000)
     const [duration, setDuration] = useState(1)
 
