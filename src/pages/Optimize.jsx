@@ -8,7 +8,6 @@ import GenerateReport from "../util/report"
 
 export default function Optimize() {
     const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
-    console.log("Backend URL:", BACKEND_URL)
 
     const [investmentAmount, setInvestmentAmount] = useState(100000)
     const [duration, setDuration] = useState(1)
